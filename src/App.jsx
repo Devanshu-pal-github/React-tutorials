@@ -30,6 +30,7 @@ import BasicEffect from "./Components/EightTutorial/BasicEffect";
 import CounterEffect from "./Components/EightTutorial/CounterEffect";
 import FetchedDataComponent from "./Components/EightTutorial/FetchedDataComponent";
 import PropDrilling from "./Components/NinthTutorial/PropDrilling";
+import ContextApi from "./Components/Tenth Tutorial/ContextApi";
 
 const App = () => {
   return (
@@ -84,7 +85,10 @@ const App = () => {
       {/* <FetchedDataComponent /> */}
 
       {/* Ninth Tutorial */}
-      <PropDrilling />
+      {/* <PropDrilling /> */}
+
+      {/* Tenth Tutorial */}
+      <ContextApi />
     </div>
   );
 };
