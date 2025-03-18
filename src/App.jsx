@@ -31,6 +31,7 @@ import CounterEffect from "./Components/EightTutorial/CounterEffect";
 import FetchedDataComponent from "./Components/EightTutorial/FetchedDataComponent";
 import PropDrilling from "./Components/NinthTutorial/PropDrilling";
 import ContextApi from "./Components/Tenth Tutorial/ContextApi";
+import UseContextHook from "./Components/EleventhTutorial/UseContextHook";
 
 const App = () => {
   return (
@@ -88,7 +89,10 @@ const App = () => {
       {/* <PropDrilling /> */}
 
       {/* Tenth Tutorial */}
-      <ContextApi />
+      {/* <ContextApi /> */}
+
+      {/* EleventhTutorial */}
+      <UseContextHook />
     </div>
   );
 };
