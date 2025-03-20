@@ -35,6 +35,7 @@ import UseContextHook from "./Components/EleventhTutorial/UseContextHook";
 import UseReducerHook from "./Components/TwelthTutorial/UseReducerHook";
 import ReducerCounter from "./Components/TwelthTutorial/ReducerCounter";
 import { CounterReducer } from "./Components/TwelthTutorial/CounterReducer";
+import UseRefHook from "./Components/ThirteenTutorial/UseRefHook";
 
 const App = () => {
   return (
@@ -100,7 +101,10 @@ const App = () => {
       {/* Twelth Tutorial */}
       {/* <UseReducerHook/> */}
       {/* <CounterReducer /> */}
-      <ReducerCounter />
+      {/* <ReducerCounter /> */}
+
+      {/* Thirteen Tutorial */}
+      <UseRefHook />
     </div>
   );
 };
