@@ -32,6 +32,9 @@ import FetchedDataComponent from "./Components/EightTutorial/FetchedDataComponen
 import PropDrilling from "./Components/NinthTutorial/PropDrilling";
 import ContextApi from "./Components/Tenth Tutorial/ContextApi";
 import UseContextHook from "./Components/EleventhTutorial/UseContextHook";
+import UseReducerHook from "./Components/TwelthTutorial/UseReducerHook";
+import ReducerCounter from "./Components/TwelthTutorial/ReducerCounter";
+import { CounterReducer } from "./Components/TwelthTutorial/CounterReducer";
 
 const App = () => {
   return (
@@ -92,7 +95,12 @@ const App = () => {
       {/* <ContextApi /> */}
 
       {/* EleventhTutorial */}
-      <UseContextHook />
+      {/* <UseContextHook /> */}
+
+      {/* Twelth Tutorial */}
+      {/* <UseReducerHook/> */}
+      {/* <CounterReducer /> */}
+      <ReducerCounter />
     </div>
   );
 };
